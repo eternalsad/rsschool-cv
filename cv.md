@@ -5,7 +5,9 @@
 - phone: +7(702)612-71-98
 
 #### Summary
-    Computer Science student at CAU. Highly motivated to start career in Software Development. RSS Javascript course is a great opportunity for me to do so. I am planning to find internship after completion of the course, but most importantly gain hard-skills in Javascript and experience of working in a group. I understand that here nobody will babyseat me and I have to work hard and learn fast but I am always ready for new challenges.
+    Computer Science student at CAU. Highly motivated to start career in Software Development. RSS Javascript course is a great opportunity for me to do so.   
+	I am planning to find internship after completion of the course, but most importantly gain hard-skills in Javascript and experience of working in a group.   
+	I understand that here nobody will babyseat me and I have to work hard and learn fast but I am always ready for new challenges.
 
 #### Skills
     1. Algorithms and Data Structures
@@ -83,7 +85,8 @@ int main()
 ```
 
 #### Experience
-    No real industrial code experience besides Javascript Course from HTMLacademy which I started recently, homeworks and university project to which I did small contribution and I do not want to take credit for.
+    No real industrial code experience besides Javascript Course from HTMLacademy which I started recently, homeworks and university project  
+	to which I did small contribution and I do not want to take credit for.
 
 #### Education
 
