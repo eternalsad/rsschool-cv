@@ -1,16 +1,16 @@
-#Erik Sadgalin
+# Erik Sadgalin
 
-####Contact Info
+#### Contact Info
 - telegram: t.me/@erictronic
 - phone: +7(702)612-71-98
-####Summary
+#### Summary
     Computer Science student at CAU. Highly motivated to start career in Software Development. RSS Javascript course is a great opportunity for me to do so. I am planning to find internship after completion of the course, but most importantly gain hard-skills in Javascript and experience of working in a group. I understand that here nobody will babyseat me and I have to work hard and learn fast but I am always ready for new challenges.
-####Skills
+#### Skills
     1. Algorithms and Data Structures
     2. Java syntax
     3. basic OOP concepts
     4. C++ (but only used for Algorhitms course I took at my school)
-####Code Example
+#### Code Example
     below is simple implementation of merge sort. Right now I have no experience in writing industrial code.
 ```
 #include <iostream>
@@ -77,3 +77,5 @@ int main()
 		cout << a[i] << ' ';
 }
 ```
+#### Experience
+    No real industrial code experience besides Javascript Course from HTMLacademy which I started recently, homeworks and university project to which I did small contribution and I do not want to take credit for.
