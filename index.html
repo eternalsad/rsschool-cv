@@ -33,70 +33,70 @@
         <p>below is simple implementation of merge sort. Right now I have no experience in writing industrial code.</p>
         <pre>
             <code>
-                    #include <iostream>
-                            #include <vector>
-                            
-                            using namespace std;
-                            
-                            template<class T>
-                            vector<T> Merge(vector<T> a, vector<T> b)
-                            {
-                                vector<T> c;
-                                
-                                int i = 0, 
-                                    j = 0;
-                                
-                                while (true)
-                                {
-                                    if (i >= a.size() || j >= b.size()) 
-                                        break;
-                                    if (a[i] < b[j])
-                                    {
-                                        c.push_back(a[i]);
-                                        i++;
-                                    } 
-                                    else 
-                                    {
-                                        c.push_back(b[j]);
-                                        j++;
-                                    }
-                                }
-                                while (i < a.size()) c.push_back(a[i++]);
-                                while (j < b.size()) c.push_back(b[j++]);
-                                return c;
-                            } 
-                            
-                            template<class T>
-                            vector<T> Sort(vector<T> a)
-                            {
-                                if (a.size() < 2) return a;
-                                return Merge(Sort(
-                                                   vector<T>(
-                                                              a.begin(), 
-                                                              a.begin() + a.size() / 2
-                                                            )
-                                                  ), 
-                                             Sort(
-                                                    vector<T>(
-                                                               a.begin() + a.size() / 2, 
-                                                               a.end()
-                                                             )
-                                                  )
-                                            );
-                            }
-                            
-                            int main()
-                            {
-                                int n;
-                                cin >> n;
-                                vector<int> a(n);
-                                for (int i = 0; i < n; i++)
-                                    cin >> a[i];
-                                a = Sort(a);
-                                for (int i = 0; i < n; i++)
-                                    cout << a[i] << ' ';
-                            }
-            </code>
+                #include &lt;iostream&gt;
+                #include &lt;vector&gt;
+                
+                using namespace std;
+                
+                template&lt;class T&gt;
+                vector&lt;T&gt; Merge(vector&lt;T&gt; a, vector&lt;T&gt; b)
+                {
+                    vector&lt;T&gt; c;
+                
+                    int i = 0, 
+                        j = 0;
+                
+                    while (true)
+                    {
+                        if (i &gt;= a.size() || j &gt;= b.size()) 
+                            break;
+                        if (a[i] &lt; b[j])
+                        {
+                            c.push_back(a[i]);
+                            i++;
+                        } 
+                        else 
+                        {
+                            c.push_back(b[j]);
+                            j++;
+                        }
+                    }
+                    while (i &lt; a.size()) c.push_back(a[i++]);
+                    while (j &lt; b.size()) c.push_back(b[j++]);
+                    return c;
+                } 
+                
+                template&lt;class T&gt;
+                vector&lt;T&gt; Sort(vector&lt;T&gt; a)
+                {
+                    if (a.size() &lt; 2) return a;
+                    return Merge(Sort(
+                                       vector&lt;T&gt;(
+                                                  a.begin(), 
+                                                  a.begin() + a.size() / 2
+                                                )
+                                      ), 
+                                 Sort(
+                                       vector&lt;T&gt;(
+                                                  a.begin() + a.size() / 2, 
+                                                  a.end()
+                                                )
+                                     )
+                                );
+                }
+                
+                int main()
+                {
+                    int n;
+                    cin &gt;&gt; n;
+                    vector&lt;int&gt; a(n);
+                    for (int i = 0; i &lt; n; i++)
+                        cin &gt;&gt; a[i];
+                    a = Sort(a);
+                    for (int i = 0; i &lt; n; i++)
+                        cout &lt;&lt; a[i] &lt;&lt; ' ';
+                }
+                </code>
         </pre>
         <h4>Experience</h4>
         <p>No real industrial code experience besides Javascript Course from HTMLacademy which I started recently,
