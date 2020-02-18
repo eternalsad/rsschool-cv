@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+div {
+    width: 1024px; 
+    margin: auto;
+}
+img {
+    position: relative;
+    top: -80px;
+    right: 180px;
+    margin: 0 7px 7px 0;
+    float: right;
+    height: 15%;
+    width: 15%;
+}
+pre, code {
+    font-family: monospace, monospace;
+}
+pre {
+   overflow: auto;
+}
+pre > code {
+   display: block;
+   padding: 1rem;
+   word-wrap: normal;
+}
