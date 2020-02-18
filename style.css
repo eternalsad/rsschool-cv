@@ -1,16 +1,16 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-family: "Segoe UI", "Tahoma", sans-serif;   
 }
 div {
-    width: 1024px; 
     margin: auto;
+    width: 1024px; 
 }
 img {
     position: relative;
     top: -80px;
     right: 180px;
-    margin: 0 7px 7px 0;
     float: right;
+    margin: 0 7px 7px 0;
     height: 15%;
     width: 15%;
 }
